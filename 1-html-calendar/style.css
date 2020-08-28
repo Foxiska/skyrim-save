@@ -1,0 +1,86 @@
+table,
+th,
+tr {
+  border: 3px solid rgb(59, 146, 161);
+}
+table.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+th {
+  font-size: 50px;
+}
+
+.center2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+p {
+  font-size: 60px;
+}
+
+#snowflakeContainer {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: none;
+}
+
+.snowflake {
+  position: fixed;
+  background-color: #ccc;
+  user-select: none;
+  z-index: 1000;
+  pointer-events: none;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+colgroup .zenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.title {
+    text-align: center;
+    color: rgb(228, 181, 199);
+    border-style: dotted;
+}
+
+.month {
+    background-color: rgb(59, 146, 161); color: pink;
+    width: 32%;
+    display: inline-block;
+    border: dotted white;
+    margin: 7px;
+}
+
+.month-name, .month-days {
+    border: 3px solid rgb(59, 146, 161);
+    font-weight: bold;
+    text-align: center;
+    font-size: 50px;
+}
+
+.month-name {
+    color: slateblue;
+    text-decoration: underline;
+}
