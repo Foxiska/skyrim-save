@@ -5,3 +5,57 @@ body {
     background-size: cover;
     min-height: 100vh;
 }
+
+/*nav*/
+
+a {
+   
+}
+
+.navbar-brand {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.nav-link {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+.hero-content {
+    margin-top: 2rem;
+}
+.hero-content h1 {
+    font-weight: 900;
+    font-size: 3rem;
+}
+.hero-content h3 {
+    font-weight: 700;
+}
+.social-icons-hero div {
+    border: 2px dotted rgb(73, 69, 69);
+    border-radius: 20;
+}
+
+/*about */
+
+.section-heading {
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.btn-main{
+    background-color: rgba(0, 0, 0, 0.267);
+    color: white;
+    font-size: 1.3rem;
+}
+
+/*Services*/
+.service{
+    border-radius: 2rem;
+}
+
+.service i{
+    font-size: 2rem;
+}
+
